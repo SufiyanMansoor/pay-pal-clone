@@ -1,0 +1,122 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: blue !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: darkblue !important;
+}
+
+.dropdown-menu {
+    background-color: white !important;
+}
+
+.dropdown-menu .dropdown-item {
+    color: blue !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f0f0f0 !important;
+    color: darkblue !important;
+}
+
+.btn-outline-primary {
+    color: blue !important;
+    border-color: blue !important;
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    background-color: blue !important;
+    border-color: blue !important;
+}
+
+.btn-primary {
+    background-color: blue !important;
+    border-color: blue !important;
+}
+
+.btn-primary:hover {
+    background-color: darkblue !important;
+    border-color: darkblue !important;
+}
+
+.hero-image {
+    background-image:  url("./assets/herobanner.png");
+    background-color:rgb(42, 42, 155)    ;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.fntsize{
+    font-size: 4.5rem;
+    padding-top: 30px;
+    padding-left: 50px;
+
+}
+.setlink{
+    color: #56ccfe;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.para{
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.vertical-line {
+    border-left: 1px solid #ccc;
+    height: 100%;
+    margin-right: 20px;
+}
+
+/* Hero Banner Coding End */
+.txtline{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.p1
+{
+    color:#0c0c0d;
+    font-size: 1.5rem;
+}
+.p2{
+    color: #1072eb
+    ;
+    font-size: 1.5rem;
+
+}
+/* Images and text start */.container {
+            display: flex;
+            align-items: center; /* Center items vertically */
+            justify-content: space-between; /* Space items evenly along the main axis */
+        }
+
+        .image {
+            margin-right: 10px; /* Adjust the margin between image and text */
+        }
+
+        .content {
+            max-width: 50%; /* Limit the width of the content */
+        }
+
+        .content img {
+            max-width: 100%; /* Ensure the image does not exceed its container */
+            height: auto; /* Maintain aspect ratio */
+        }
+.learn{
+    color:#1072eb    ;
+}
